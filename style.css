@@ -29,7 +29,7 @@ header p {
 }
 header h1:hover {
   color: #a8edcb;
-  transform: scale(1.05); /* Smoothly bada hoga! */
+  transform: scale(1.05); 
   transition: transform 0.3s, color 0.3s;
 }
 
@@ -59,7 +59,7 @@ section {
   padding: 35px;
   margin-bottom: 25px;
   box-shadow: 0 2px 15px rgba(0,0,0,0.08);
-  /* Sundar shadow effect! */
+  
 }
 section h2 {
   font-size: 20px;
@@ -67,11 +67,11 @@ section h2 {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 4px solid #9c5525;
-  /* Heading ke neeche colored line! */
+  
 }
 section ul {
   list-style: none;
-  /* Default bullets hatao */
+  
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -82,7 +82,7 @@ section ul li {
   color: #cc1508;
   padding: 6px 16px;
   border-radius: 20px;
-  /* Pill shape! */
+  
   font-size: 14px;
   font-weight: 500;
   border: 1px solid #860505;
@@ -107,27 +107,27 @@ td {
 } 
 tr:hover {
   background: #bdb0ae;
-  /* Row pe hover karo — highlight hoga! */
+  
 }
 
 tr:nth-child(even) {
   background: #f8f9fa;
-  /* Zebra effect — alternate rows! */
+  
 }
-/* ===== PROJECT CARDS ===== */
+
 article {
   background: #f8f9fa;
   border-radius: 10px;
   padding: 20px 25px;
   margin-bottom: 20px;
   border-left: 4px solid #d40000;
-  /* Left mein colored border! */
+  
   transition: transform 0.2s;
 }
 
 article:hover {
   transform: translateX(5px);
-  /* Hover pe thoda right shift! */
+  
 }
 
 article h3 {
@@ -151,7 +151,7 @@ article a {
 article a:hover {
   background: #911d00;
 }
-/* ===== CONTACT FORM ===== */
+
 form input,
 form textarea {
   width: 100%;
@@ -170,7 +170,7 @@ form textarea:focus {
   outline: none;
   border-color: #971010;
   background: rgb(248, 245, 245);
-  /* Focus mein colored border! */
+  
 }
 
 form button,
@@ -188,7 +188,7 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   opacity: 0.85;
 }
-/* ===== FOOTER ===== */
+
 footer {
   background: #2e1a1a;
   color: #8ba6ca;
@@ -217,6 +217,6 @@ img {
   margin: 15px auto;
   width: 200px;
   height: 200px;
-  object-fit: cover; /* Image crop hokar circle mein fit hogi! */
+  object-fit: cover; 
 }
 
